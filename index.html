@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALLBACK HELL</title>
+</head>
+<body>
+    <style>
+        body{
+    margin:0;
+    padding:0;
+    background-color: rgb(246, 242, 247); 
+    height: 100%;   
+}
+#countdown{
+    display: flex;
+    justify-content: center;
+    padding:20%;
+    background-image: linear-gradient(#FF9933, #FFFFFF,#128807) ;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 500%;
+}
+    </style>
+    <div id="countdown"></div>
+   
+    <script>//CALLBACK HELL FUNCTION
+
+        let count = 11;
+        setTimeout(() =>{
+            count--;
+            console.log(count);
+            var screen = document.querySelector('#countdown');
+            screen.innerText = count;
+            setTimeout(() =>{
+                count--;
+                console.log(count);
+                var screen = document.querySelector('#countdown');
+                screen.innerText = count;
+                setTimeout(() =>{
+                    count--;
+                    console.log(count);
+                    var screen = document.querySelector('#countdown');
+                    screen.innerText = count;
+                    setTimeout(() =>{
+                        count--;
+                        console.log(count);
+                        var screen = document.querySelector('#countdown');
+                        screen.innerText = count;
+                        setTimeout(() =>{
+                            count--;
+                            console.log(count);
+                            var screen = document.querySelector('#countdown');
+                            screen.innerText = count;
+                            setTimeout(() =>{
+                                count--;
+                                console.log(count);
+                                var screen = document.querySelector('#countdown');
+                                screen.innerText = count;
+                                setTimeout(() =>{
+                                    count--;
+                                    console.log(count);
+                                    var screen = document.querySelector('#countdown');
+                                    screen.innerText = count;
+                                    setTimeout(() =>{
+                                        count--;
+                                        console.log(count);
+                                        var screen = document.querySelector('#countdown');
+                                        screen.innerText = count;
+                                        setTimeout(() =>{
+                                            count--;
+                                            console.log(count);
+                                            var screen = document.querySelector('#countdown');
+                                            screen.innerText = count;
+                                            setTimeout(() =>{
+                                                count--;
+                                                console.log(count);
+                                                var screen = document.querySelector('#countdown');
+                                                screen.innerText = count;
+                                                setTimeout(() =>{
+                                                    count--;
+                                                    console.log(count);
+                                                    var screen = document.querySelector('#countdown');
+                                                    screen.innerText = count;
+                                                    clearTimeout();
+                                                    console.log("Happy Independence Day");
+                                                    var screen = document.querySelector('#countdown');
+                                                    screen.innerText = "Happy Independence Day!!!"
+                                                },1000)
+                                            },1000)
+                                        },1000)
+                                    },1000)
+                                },1000)
+                            },1000)
+                        },1000)
+                    },1000)
+                },1000)
+            },1000)
+        },1000)</script>
+</body>
+</html>
